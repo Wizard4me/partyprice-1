@@ -1,0 +1,11 @@
+MODULES_MANAGER_V2
+manage|C:\my_site\partyprice\partyprice\manage.py
+party_bl.__init__|C:\my_site\partyprice\partyprice\party_bl\__init__.py
+party_bl.models|C:\my_site\partyprice\partyprice\party_bl\models.py
+party_bl.tests|C:\my_site\partyprice\partyprice\party_bl\tests.py
+party_bl.urls|C:\my_site\partyprice\partyprice\party_bl\urls.py
+party_bl.views|C:\my_site\partyprice\partyprice\party_bl\views.py
+partyprice.__init__|C:\my_site\partyprice\partyprice\partyprice\__init__.py
+partyprice.settings|C:\my_site\partyprice\partyprice\partyprice\settings.py
+partyprice.urls|C:\my_site\partyprice\partyprice\partyprice\urls.py
+partyprice.wsgi|C:\my_site\partyprice\partyprice\partyprice\wsgi.py

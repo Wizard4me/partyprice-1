@@ -1,0 +1,61 @@
+-- VERSION_3
+-- START DISKCACHE
+C:\my_site\partyprice\.metadata\.plugins\org.eclipse.core.resources\.projects\partyprice\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+party_bl.views|0|C:\my_site\partyprice\partyprice\party_bl\views.py
+partyprice.settings|0|C:\my_site\partyprice\partyprice\partyprice\settings.py
+party_bl.models|0|C:\my_site\partyprice\partyprice\party_bl\models.py
+party_bl.urls|0|C:\my_site\partyprice\partyprice\party_bl\urls.py
+party_bl.tests|0|C:\my_site\partyprice\partyprice\party_bl\tests.py
+party_bl.__init__|0|C:\my_site\partyprice\partyprice\party_bl\__init__.py
+partyprice.wsgi|0|C:\my_site\partyprice\partyprice\partyprice\wsgi.py
+manage|0|C:\my_site\partyprice\partyprice\manage.py
+partyprice.urls|0|C:\my_site\partyprice\partyprice\partyprice\urls.py
+partyprice.__init__|0|C:\my_site\partyprice\partyprice\partyprice\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+3=party_bl.views
+8=SomeTest
+4=party_bl.models
+1=partyprice.settings
+7=party_bl.urls
+5=party_bl.tests
+2=partyprice.wsgi
+9=SimpleTest
+6=partyprice.urls
+-- END DICTIONARY
+-- START TREE 1
+26
+adm|1|ADMINS!11@
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+daj|2|DAJAXICE_FUNCTIONS!11@DAJAXICE_MEDIA_PREFIX!11@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+ind|1|index!26@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+log|1|LOGGING!11@
+man|1|MANAGERS!11@
+med|2|MEDIA_URL!11@MEDIA_ROOT!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+pri|1|primer!34@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+ses|1|SESSION_SERIALIZER!11@
+sim|1|SimpleTest!41@
+sit|1|SITE_ID!11@
+som|1|SomeTest!33@
+sta|4|STATIC_ROOT!11@STATICFILES_DIRS!11@STATICFILES_FINDERS!11@STATIC_URL!11@
+tem|3|TEMPLATE_DEBUG!11@TEMPLATE_DIRS!11@TEMPLATE_LOADERS!11@
+tim|1|TIME_ZONE!11@
+url|2|urlpatterns!51@urlpatterns!59@
+use|3|USE_I18N!11@USE_TZ!11@USE_L10N!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+2
+que|1|question!8&35@
+tes|1|test_basic_addition!9&42@
+-- END TREE
