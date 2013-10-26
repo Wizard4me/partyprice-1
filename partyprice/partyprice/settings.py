@@ -25,7 +25,7 @@ DATABASES = {
 DAJAXICE_MEDIA_PREFIX="dajaxice"
 
 DAJAXICE_FUNCTIONS = (
-    'jsrpc.ajax.primer',
+    'party_bl.primer',
 )
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
@@ -132,6 +132,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'dajaxice',
+    'party_bl'
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

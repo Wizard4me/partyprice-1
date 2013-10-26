@@ -8,7 +8,7 @@ from django.conf import settings
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^party/', include('party_bl.urls')),
+    url(r'^', include('party_bl.urls')),
     # Examples:
     # url(r'^$', 'partyprice.views.home', name='home'),
     # url(r'^partyprice/', include('partyprice.foo.urls')),
