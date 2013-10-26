@@ -1,3 +1,24 @@
+.ShoppingList{
+    width: 45%;
+    height: 60%;
+    border: solid 1px black;
+    float: left;
+}
+.Memberslist{
+    width: 45%;
+    height: 30%;
+    border: solid 1px black;
+    float: right;
+    left: 700px;
+}
+.Calculations{
+    width: 45%;
+    height: 30%;
+    border: solid 1px black;
+    float: right;
+
+
+}
 .CList{
     border: solid 1px black;
     display: none;
@@ -107,4 +128,15 @@
 .PeopleCategoriesTableName{
     border: solid 1px black;
     width: 150px;
+}
+.EventCard{
+    border: solid 1px black;
+}
+.ShopCard{
+    border: solid 1px black;
+    display: none;
+}
+.MemCard{
+    border: solid 1px black;
+    display: none;
 }
