@@ -8,11 +8,6 @@ party_bl.urls|C:\MyDocs\GitHub\partyprice\partyprice\party_bl\urls.py
 party_bl.views|C:\MyDocs\GitHub\partyprice\partyprice\party_bl\views.py
 partyprice.__init__|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\__init__.py
 partyprice.manage|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\manage.py
-partyprice.party_bl.__init__|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\party_bl\__init__.py
-partyprice.party_bl.models|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\party_bl\models.py
-partyprice.party_bl.tests|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\party_bl\tests.py
-partyprice.party_bl.urls|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\party_bl\urls.py
-partyprice.party_bl.views|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\party_bl\views.py
 partyprice.partyprice.__init__|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\partyprice\__init__.py
 partyprice.partyprice.settings|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\partyprice\settings.py
 partyprice.partyprice.urls|C:\MyDocs\GitHub\partyprice\partyprice\partyprice\partyprice\urls.py
