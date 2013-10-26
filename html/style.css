@@ -5,34 +5,39 @@
 .CCard{
     border: solid 1px black;
     display: none;
+
 }
 .PList{
     border: solid 1px black;
     display: none;
+
 }
 .PCard{
     border: solid 1px black;
     display: none;
+
 }
 .Settings{
     border: solid 1px black;
     width:400px;
-    display: none;
+
+
 }
 .People{
     border: solid 1px black;
     width:400px;
-    display: none;
+
 }
 .Contacts{
     width:400px;
     border: solid 1px black;
-    display: none;
+
 }
 .Categories{
     width: 400px;
     border: solid 1px black;
-    display: none;
+
+
 }
 .Event{
     border: solid 1px black;
@@ -47,4 +52,59 @@
     border: solid 1px black;
     width: 50px;
 }
-
+.CategoryTable{
+}
+.CategoryTableName{
+    border: solid 1px black;
+    width: 200px;
+}
+.CategoryTableDescription{
+    border: solid 1px black;
+    width: 500px;
+}
+.CSTable{
+}
+.CSTableName{
+    border: solid 1px black;
+    width: 200px;
+}
+.CSTableDescription{
+    border: solid 1px black;
+    width: 200px;
+}
+.CPTable{
+}
+.CPTableName{
+    border: solid 1px black;
+    width: 200px;
+}
+.PLTable{
+}
+.PLTableName{
+    border: solid 1px black;
+    width: 100px;
+}
+.PLTableGroup{
+    border: solid 1px black;
+    width: 150px;
+}
+.PLTableCategories{
+    border: solid 1px black;
+    width: 300px;
+}
+.ContactsTable{
+}
+.ContactsTableName{
+    border: solid 1px black;
+    width: 100px;
+}
+.ContactsTableAddress{
+    border: solid 1px black;
+    width: 150px;
+}
+.PeopleCategoriesTable{
+}
+.PeopleCategoriesTableName{
+    border: solid 1px black;
+    width: 150px;
+}
