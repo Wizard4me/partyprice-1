@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Карточка мероприятия</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript"  src="jquery-min.js"></script>
+</head>
+<body>
+<table>
+<tr>
+    <td>
+        Название
+    </td>
+    <td id="EventName"></td>
+</tr>
+    <tr>
+        <td>Дата</td>
+        <td id="EventDate"></td>
+    </tr>
+</table>
+<div id="ShoppingList"  class="ShoppingList">
+    <div>Список покупок</div>
+    <button id="AddToShoppingList">Добавить</button>
+    <div id="ShopCard" class="ShopCard">
+        <table>
+            <tr>
+                <td>Описание</td>
+                <td>Стоимость</td>
+                <td>Категория</td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <button id="SaveShop">Сохранить</button>
+    </div>
+
+</div>
+<div id="MembersList" class="Memberslist">
+    <div>Список участников</div>
+    <button id="AddMember">Добавить</button>
+    <div id="MemCard" class="MemCard">
+        <table>
+            <tr>
+                <td>Имя</td>
+                <td>Вклад</td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+            </tr>
+        </table>
+        <button id="SaveMem">Сохранить</button>
+    </div>
+</div>
+<div id="Calculations" class="Calculations">
+    <div>Взаиморасчеты</div>
+</div>
+
+</body>
+</html>
