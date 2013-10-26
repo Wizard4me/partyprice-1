@@ -1,0 +1,18 @@
+﻿<html>
+<head>
+</head>
+<body>
+{% load dajaxice_templatetags %}{% dajaxice_js_import %}
+    <h1>Кто сколько должен!</h1>
+    <button onclick="Dajaxice.party_bl.hello(function(d){alert(d.message);})">Hello</button>
+<input type="button" name="rand" value="Get message from server!" id="rand" onclick="Dajaxice.party_bl.hello(my_callback)">
+
+<script type="text/javascript">
+function my_callback(data){
+alert(data.message);
+}
+</script>
+
+
+</body>
+</html>

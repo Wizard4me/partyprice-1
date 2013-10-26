@@ -25,8 +25,22 @@ DATABASES = {
 DAJAXICE_MEDIA_PREFIX="dajaxice"
 
 DAJAXICE_FUNCTIONS = (
+    'party_bl.ajax.primer',
+    'party_bl.ajax.hello',
     'party_bl.primer',
+    'party_bl.hello',
 )
+
+TEMPLATE_CONTEXT_PROCESSORS= (
+                              "django.contrib.auth.context_processors.auth",
+                              "django.core.context_processors.debug",
+                              "django.core.context_processors.i18n",
+                              "django.core.context_processors.media",
+                              "django.core.context_processors.static",
+                              "django.core.context_processors.request",
+                              "django.contrib.messages.context_processors.messages"
+)
+
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
@@ -68,7 +82,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = ''
+STATIC_ROOT = 'static'
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -156,12 +170,21 @@ LOGGING = {
             'level': 'ERROR',
             'filters': ['require_debug_false'],
             'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler'
         }
     },
     'loggers': {
         'django.request': {
             'handlers': ['mail_admins'],
             'level': 'ERROR',
+            'propagate': True,
+        },
+        'dajaxice': {
+            'handlers': ['console'],
+            'level': 'INFO',
             'propagate': True,
         },
     }

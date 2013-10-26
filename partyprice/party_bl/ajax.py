@@ -1,9 +1,14 @@
-from django.db import models
+# coding=UTF-8
 from django.utils import simplejson 
-from dajaxice.core import dajaxice_functions 
+
 from dajaxice.decorators import dajaxice_register
 
 # Create your models here.
+
+@dajaxice_register(method='GET')
+@dajaxice_register(method='POST', name='other_post')
+def hello(request):
+    return simplejson.dumps({'message': 'yo ho ho, motherfucers'})
 
 @dajaxice_register
 def primer(request,message):

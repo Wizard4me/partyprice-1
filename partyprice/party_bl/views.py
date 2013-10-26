@@ -1,6 +1,6 @@
 # coding=UTF-8
 from django.shortcuts import render
-
+from dajaxice.core import dajaxice_functions
 # Create your views here.
 
 
