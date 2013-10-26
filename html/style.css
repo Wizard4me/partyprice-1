@@ -37,4 +37,14 @@
 .Event{
     border: solid 1px black;
 }
+.EventTable{
+}
+.EventTableName{
+    border: solid 1px black;
+    width: 200px;
+}
+.EventTableDate{
+    border: solid 1px black;
+    width: 50px;
+}
 
