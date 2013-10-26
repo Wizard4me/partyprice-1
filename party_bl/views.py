@@ -1,5 +1,5 @@
 # coding=UTF-8
-
+#тестовый коммит
 from django.http import HttpResponse
 # Create your views here.
 
