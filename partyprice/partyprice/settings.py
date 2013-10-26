@@ -24,12 +24,12 @@ DATABASES = {
 
 DAJAXICE_MEDIA_PREFIX="dajaxice"
 
-DAJAXICE_FUNCTIONS = (
-    'party_bl.ajax.primer',
-    'party_bl.ajax.hello',
-    'party_bl.primer',
-    'party_bl.hello',
-)
+#DAJAXICE_FUNCTIONS = (
+    #'party_bl.ajax.primer',
+    #'party_bl.ajax.hello',
+    #'party_bl.primer',
+    #'party_bl.hello',
+#)
 
 TEMPLATE_CONTEXT_PROCESSORS= (
                               "django.contrib.auth.context_processors.auth",

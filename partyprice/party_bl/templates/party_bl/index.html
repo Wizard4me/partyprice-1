@@ -6,12 +6,23 @@
     <h1>Кто сколько должен!</h1>
     <button onclick="Dajaxice.party_bl.hello(function(d){alert(d.message);})">Hello</button>
 <input type="button" name="rand" value="Get message from server!" id="rand" onclick="Dajaxice.party_bl.hello(my_callback)">
+<br>
+<input type="text" id="people_id"/>
+<input type="button" onclick="Dajaxice.party_bl.PeopleList(people_list_callback, {'people_id':$('#people_id').val()})" value="People_list"/>
+<br>
+<input type="button" onclick="Dajaxice.party_bl.PeopleList(people_list_callback, {'people_id':1})" value="Show ME"/>
 
 <script type="text/javascript">
+function people_list_callback(data){
+alert(data);
+}
+
 function my_callback(data){
 alert(data.message);
 }
 </script>
+
+
 
 
 </body>
