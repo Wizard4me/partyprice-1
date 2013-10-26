@@ -1,0 +1,41 @@
+.CList{
+    border: solid 1px black;
+    display: none;
+}
+.CCard{
+    border: solid 1px black;
+    display: none;
+}
+.PList{
+    border: solid 1px black;
+    display: none;
+}
+.PCard{
+    border: solid 1px black;
+    display: none;
+}
+.Settings{
+    border: solid 1px black;
+    width:400px;
+    display: none;
+}
+.People{
+    border: solid 1px black;
+    width:400px;
+    display: none;
+}
+.Contacts{
+    width:400px;
+    border: solid 1px black;
+    display: none;
+}
+.Categories{
+    width: 400px;
+    border: solid 1px black;
+    display: none;
+}
+.Event{
+    border: solid 1px black;
+    display: none;
+}
+
