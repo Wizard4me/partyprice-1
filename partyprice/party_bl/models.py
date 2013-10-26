@@ -18,14 +18,13 @@ class Peoples(models.Model):
     User_link=models.ForeignKey(User)
     
     # delete object
-    def Delete(self, params):
-        p=Peoples.objects.get(pk=params['id'])
+    def Delete(self, Params):
+        p=Peoples.objects.get(id=Params['id'])
         p.delete()
         
     # do or edit object
-    def Save(self, param):
-        f=get(params['id'])
-        if f=None:
+    def Save(self, Params):
+        if Params.get('id')==None:
             p=Peoples()
         else:
             p=Peoples.objects.get(id=Params['id'])
@@ -36,7 +35,7 @@ class Peoples(models.Model):
         return p.id 
     
     # return list 
-    def List(self, params):
+    def List(self, Params):
         return Peoples.objects.filter(User_link=Params['id']).values()
     
     
@@ -47,14 +46,13 @@ class Categorys(models.Model):
     User_link=models.ForeignKey(User)
     
     # delete object
-    def Delete(self, params):
-        p=Categorys.objects.get(pk=params['id'])
+    def Delete(self, Params):
+        p=Categorys.objects.get(id=Params['id'])
         p.delete()
         
     # do or edit object
-    def Save(self, param):
-        f=get(params['id'])
-        if f=None:
+    def Save(self, Params):
+        if Params.get('id')==None:
             p=Categorys()
         else:
             p=Categorys.objects.get(id=Params['id'])
@@ -65,7 +63,7 @@ class Categorys(models.Model):
         return p.id 
     
     # return list 
-    def List(self, params):
+    def List(self, Params):
         return Categorys.objects.filter(User_link=Params['id']).values()
     
     
@@ -75,14 +73,13 @@ class Action(models.Model):
     User_link=models.ForeignKey(User)
     
     # delete object
-    def Delete(self, params):
-        p=Action.objects.get(pk=params['id'])
+    def Delete(self, Params):
+        p=Action.objects.get(id=Params['id'])
         p.delete()
     
     # do or edit object
-    def Save(self, param):
-        f=get(params['id'])
-        if f=None:
+    def Save(self, Params):
+        if Params.get('id')==None:
             p=Action()
         else:
             p=Action.objects.get(id=Params['id'])
@@ -93,7 +90,7 @@ class Action(models.Model):
         return p.id
     
     # return list 
-    def List(self, params):
+    def List(self, Params):
         return Action.objects.filter(User_link=Params['id']).values()
     
 class Categorys_for_people(models.Model):
@@ -102,8 +99,7 @@ class Categorys_for_people(models.Model):
     
     #Save people
     def Save(self, Params):
-        f=get(Params['id'])
-        if f=None:
+        if Params.get('id')==None:
             p=Categorys_for_people()
         else:
             p=Categorys_for_people.objects.get(id=Params['id'])
@@ -125,8 +121,7 @@ class Setting_categorys(models.Model):
     
     #save settings
     def Save(self, Params):
-        f=get(Params['id'])
-        if f=None
+        if Params.get('id')==None:
             p=Setting_categorys()
         else:
             p=Setting_categorys.object.get(id=Params['id'])
@@ -150,11 +145,10 @@ class Buys(models.Model):
     Action=models.ForeignKey(Action)
     
     #Save Buys
-    def Save(selfself, Params):
-        f=get(Params['id'])
-        if f=None
+    def Save(self, Params):
+        if Params.get('id')==None:
             p=Buys()
-        else 
+        else: 
             p=Buys.object.get(id=Params['id'])
         p.Name=Params['Name']
         p.Price=Params['Price']
@@ -173,14 +167,13 @@ class Buys(models.Model):
 class Partys(models.Model):
     Contribution=models.FloatField()
     Action_id=models.ForeignKey(Action)
-    People_id=models.ForeignKey(People)
+    People_id=models.ForeignKey(Peoples)
     
     #Save Party
     def Save(self, Params):
-        f=get(Params['id'])
-        if f=None
+        if Params.get('id')==None:
             p=Partys()
-        else 
+        else: 
             p=Partys.object.get(id=Params['id'])
         p.Action_id=Params['Action_id']
         p.People_id=Params['People_id']
