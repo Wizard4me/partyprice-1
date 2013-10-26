@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title> Dummy page </title>
+		<script>
+			
+		</script>
+	</head>
+	<body>
+		<h1> It's a REPORT page </h1>
+		<{% load dajaxice_templatetags %}{% dajaxice_js_import %}>
+		<input onclick="Dajaxice.jsrpc.primer('primer_callback',{'message':'Хэллоу Уорлд!'});" type="button" value="Push Me!" />
+	</body>
+</html>
